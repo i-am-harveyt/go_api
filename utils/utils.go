@@ -27,9 +27,6 @@ func ValidateGender(gender string) error {
 
 func ValidateCountry(country string) error {
 	// You can add a list of valid countries here
-	if country != "TW" && country != "JP" && country != "" {
-		return ErrInvalidCountry
-	}
 	return nil
 }
 

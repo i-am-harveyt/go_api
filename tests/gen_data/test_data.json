@@ -1,0 +1,3474 @@
+[
+  {
+    "title": "AD 1",
+    "startAt": "2024-09-23T00:00:00Z",
+    "endAt": "2024-10-17T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 24,
+        "ageEnd": 31,
+        "country": [
+          "CA",
+          "JP"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 41,
+        "ageEnd": 54,
+        "country": [
+          "AU",
+          "DE",
+          "JP"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 43,
+        "ageEnd": 60,
+        "country": [
+          "TW",
+          "DE"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 2",
+    "startAt": "2024-01-18T00:00:00Z",
+    "endAt": "2024-02-06T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 39,
+        "ageEnd": 48,
+        "country": [
+          "BR",
+          "TW"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 31,
+        "ageEnd": 37,
+        "country": [
+          "US",
+          "JP",
+          "FR"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 3",
+    "startAt": "2024-09-25T00:00:00Z",
+    "endAt": "2024-10-25T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 18,
+        "ageEnd": 28,
+        "country": [
+          "IT"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 47,
+        "ageEnd": 66,
+        "country": [
+          "AU",
+          "FR"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 4",
+    "startAt": "2024-11-17T00:00:00Z",
+    "endAt": "2024-12-01T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 60,
+        "ageEnd": 71,
+        "country": [
+          "CA",
+          "AU"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 42,
+        "ageEnd": 53,
+        "country": [
+          "IT",
+          "FR"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      },
+      {
+        "ageStart": 37,
+        "ageEnd": 43,
+        "country": [
+          "CA"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 5",
+    "startAt": "2024-11-02T00:00:00Z",
+    "endAt": "2024-11-23T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 56,
+        "ageEnd": 67,
+        "country": [
+          "GB"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 23,
+        "ageEnd": 34,
+        "country": [
+          "TW",
+          "DE"
+        ],
+        "platform": [
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 6",
+    "startAt": "2024-04-10T00:00:00Z",
+    "endAt": "2024-04-28T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 18,
+        "ageEnd": 31,
+        "country": [
+          "IT"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 7",
+    "startAt": "2024-02-09T00:00:00Z",
+    "endAt": "2024-03-10T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 25,
+        "ageEnd": 32,
+        "country": [
+          "AU"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      },
+      {
+        "ageStart": 23,
+        "ageEnd": 29,
+        "country": [
+          "IT",
+          "TW"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 8",
+    "startAt": "2024-09-24T00:00:00Z",
+    "endAt": "2024-10-12T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 49,
+        "ageEnd": 56,
+        "country": [
+          "US",
+          "JP",
+          "AU"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 9",
+    "startAt": "2024-03-08T00:00:00Z",
+    "endAt": "2024-03-28T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 30,
+        "ageEnd": 36,
+        "country": [
+          "DE"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 10",
+    "startAt": "2024-03-20T00:00:00Z",
+    "endAt": "2024-04-15T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 22,
+        "ageEnd": 30,
+        "country": [
+          "GB",
+          "DE"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 38,
+        "ageEnd": 57,
+        "country": [
+          "CA",
+          "TW",
+          "FR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 26,
+        "ageEnd": 37,
+        "country": [
+          "TW",
+          "DE"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 11",
+    "startAt": "2024-10-23T00:00:00Z",
+    "endAt": "2024-11-12T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 36,
+        "ageEnd": 51,
+        "country": [
+          "JP"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 54,
+        "ageEnd": 71,
+        "country": [
+          "FR",
+          "CA"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 58,
+        "ageEnd": 70,
+        "country": [
+          "FR",
+          "GB",
+          "US"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 12",
+    "startAt": "2024-02-07T00:00:00Z",
+    "endAt": "2024-02-24T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 56,
+        "ageEnd": 67,
+        "country": [
+          "IT",
+          "GB"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 13",
+    "startAt": "2024-06-17T00:00:00Z",
+    "endAt": "2024-06-22T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 50,
+        "ageEnd": 62,
+        "country": [
+          "US",
+          "CA"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      },
+      {
+        "ageStart": 24,
+        "ageEnd": 35,
+        "country": [
+          "CA",
+          "TW"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 14",
+    "startAt": "2024-02-09T00:00:00Z",
+    "endAt": "2024-02-16T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 21,
+        "ageEnd": 28,
+        "country": [
+          "JP",
+          "TW",
+          "DE"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 15",
+    "startAt": "2024-06-03T00:00:00Z",
+    "endAt": "2024-06-22T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 59,
+        "ageEnd": 67,
+        "country": [
+          "FR",
+          "CA"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 20,
+        "ageEnd": 37,
+        "country": [
+          "CA",
+          "IT"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 16",
+    "startAt": "2024-08-10T00:00:00Z",
+    "endAt": "2024-09-04T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 35,
+        "ageEnd": 51,
+        "country": [
+          "FR",
+          "CA"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 24,
+        "ageEnd": 40,
+        "country": [
+          "DE",
+          "US",
+          "GB"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 51,
+        "ageEnd": 65,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 17",
+    "startAt": "2024-05-02T00:00:00Z",
+    "endAt": "2024-05-31T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 35,
+        "ageEnd": 42,
+        "country": [
+          "TW",
+          "DE",
+          "AU"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      },
+      {
+        "ageStart": 41,
+        "ageEnd": 51,
+        "country": [
+          "US"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 18",
+    "startAt": "2024-07-30T00:00:00Z",
+    "endAt": "2024-08-18T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 23,
+        "ageEnd": 41,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 19",
+    "startAt": "2024-03-23T00:00:00Z",
+    "endAt": "2024-04-16T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 46,
+        "ageEnd": 53,
+        "country": [
+          "FR",
+          "BR"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 27,
+        "ageEnd": 34,
+        "country": [
+          "DE"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 20",
+    "startAt": "2024-09-11T00:00:00Z",
+    "endAt": "2024-10-11T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 22,
+        "ageEnd": 38,
+        "country": [
+          "IT"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 21",
+    "startAt": "2024-08-24T00:00:00Z",
+    "endAt": "2024-09-18T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 56,
+        "ageEnd": 70,
+        "country": [
+          "DE"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 43,
+        "ageEnd": 59,
+        "country": [
+          "IT",
+          "GB"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 22,
+        "ageEnd": 29,
+        "country": [
+          "AU"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 22",
+    "startAt": "2024-11-09T00:00:00Z",
+    "endAt": "2024-11-13T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 45,
+        "ageEnd": 50,
+        "country": [
+          "DE",
+          "GB"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 48,
+        "ageEnd": 68,
+        "country": [
+          "TW",
+          "GB",
+          "CA"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 48,
+        "ageEnd": 65,
+        "country": [
+          "GB",
+          "BR"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 23",
+    "startAt": "2024-07-30T00:00:00Z",
+    "endAt": "2024-08-23T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 46,
+        "ageEnd": 61,
+        "country": [
+          "FR",
+          "CA",
+          "AU"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 41,
+        "ageEnd": 57,
+        "country": [
+          "TW",
+          "BR"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 24",
+    "startAt": "2024-09-14T00:00:00Z",
+    "endAt": "2024-10-04T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 56,
+        "ageEnd": 74,
+        "country": [
+          "AU",
+          "BR"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      },
+      {
+        "ageStart": 42,
+        "ageEnd": 58,
+        "country": [
+          "JP",
+          "DE",
+          "CA"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      },
+      {
+        "ageStart": 53,
+        "ageEnd": 68,
+        "country": [
+          "AU"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 25",
+    "startAt": "2024-02-19T00:00:00Z",
+    "endAt": "2024-02-24T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 36,
+        "ageEnd": 42,
+        "country": [
+          "CA",
+          "BR"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 18,
+        "ageEnd": 27,
+        "country": [
+          "IT",
+          "BR",
+          "GB"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 25,
+        "ageEnd": 41,
+        "country": [
+          "FR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 26",
+    "startAt": "2024-04-12T00:00:00Z",
+    "endAt": "2024-05-04T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 21,
+        "ageEnd": 41,
+        "country": [
+          "JP",
+          "TW"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 27",
+    "startAt": "2024-12-03T00:00:00Z",
+    "endAt": "2024-12-06T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 32,
+        "ageEnd": 46,
+        "country": [
+          "JP"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 37,
+        "ageEnd": 53,
+        "country": [
+          "TW"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 28",
+    "startAt": "2024-07-29T00:00:00Z",
+    "endAt": "2024-08-19T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 34,
+        "ageEnd": 44,
+        "country": [
+          "AU",
+          "JP"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 29",
+    "startAt": "2024-12-30T00:00:00Z",
+    "endAt": "2025-01-07T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 51,
+        "ageEnd": 71,
+        "country": [
+          "AU",
+          "US"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 22,
+        "ageEnd": 30,
+        "country": [
+          "CA",
+          "AU",
+          "DE"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 32,
+        "ageEnd": 43,
+        "country": [
+          "IT",
+          "DE",
+          "AU"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 30",
+    "startAt": "2024-11-14T00:00:00Z",
+    "endAt": "2024-11-29T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 60,
+        "ageEnd": 77,
+        "country": [
+          "DE",
+          "IT"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 35,
+        "ageEnd": 42,
+        "country": [
+          "IT",
+          "TW",
+          "BR"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 31",
+    "startAt": "2024-12-11T00:00:00Z",
+    "endAt": "2024-12-22T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 24,
+        "ageEnd": 41,
+        "country": [
+          "TW",
+          "AU"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 28,
+        "ageEnd": 35,
+        "country": [
+          "FR",
+          "GB",
+          "TW"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 22,
+        "ageEnd": 37,
+        "country": [
+          "JP",
+          "US",
+          "CA"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 32",
+    "startAt": "2024-03-29T00:00:00Z",
+    "endAt": "2024-04-24T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 55,
+        "ageEnd": 72,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 57,
+        "ageEnd": 75,
+        "country": [
+          "FR",
+          "JP",
+          "TW"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 24,
+        "ageEnd": 33,
+        "country": [
+          "IT"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 33",
+    "startAt": "2024-06-20T00:00:00Z",
+    "endAt": "2024-06-26T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 28,
+        "ageEnd": 40,
+        "country": [
+          "JP",
+          "BR",
+          "US"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 50,
+        "ageEnd": 62,
+        "country": [
+          "FR",
+          "BR",
+          "CA"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 34",
+    "startAt": "2024-02-24T00:00:00Z",
+    "endAt": "2024-03-01T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 19,
+        "ageEnd": 27,
+        "country": [
+          "TW",
+          "CA"
+        ],
+        "platform": [
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 35",
+    "startAt": "2024-10-01T00:00:00Z",
+    "endAt": "2024-10-16T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 38,
+        "ageEnd": 47,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 39,
+        "ageEnd": 59,
+        "country": [
+          "FR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 36",
+    "startAt": "2024-12-08T00:00:00Z",
+    "endAt": "2024-12-21T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 46,
+        "ageEnd": 59,
+        "country": [
+          "CA",
+          "DE"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 25,
+        "ageEnd": 40,
+        "country": [
+          "DE",
+          "JP",
+          "AU"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 41,
+        "ageEnd": 51,
+        "country": [
+          "JP",
+          "DE",
+          "CA"
+        ],
+        "platform": [
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 37",
+    "startAt": "2024-04-17T00:00:00Z",
+    "endAt": "2024-05-12T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 33,
+        "ageEnd": 43,
+        "country": [
+          "DE",
+          "TW"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 38",
+    "startAt": "2024-05-08T00:00:00Z",
+    "endAt": "2024-05-21T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 50,
+        "ageEnd": 61,
+        "country": [
+          "BR",
+          "FR",
+          "DE"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 48,
+        "ageEnd": 67,
+        "country": [
+          "DE"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 39",
+    "startAt": "2024-12-01T00:00:00Z",
+    "endAt": "2024-12-05T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 20,
+        "ageEnd": 27,
+        "country": [
+          "CA",
+          "DE"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 34,
+        "ageEnd": 46,
+        "country": [
+          "IT",
+          "US"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 38,
+        "ageEnd": 52,
+        "country": [
+          "IT"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 40",
+    "startAt": "2024-04-17T00:00:00Z",
+    "endAt": "2024-05-13T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 58,
+        "ageEnd": 66,
+        "country": [
+          "GB",
+          "US"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 41",
+    "startAt": "2024-09-02T00:00:00Z",
+    "endAt": "2024-09-14T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 48,
+        "ageEnd": 62,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 35,
+        "ageEnd": 50,
+        "country": [
+          "DE",
+          "GB"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 28,
+        "ageEnd": 44,
+        "country": [
+          "DE",
+          "JP"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 42",
+    "startAt": "2024-08-24T00:00:00Z",
+    "endAt": "2024-09-22T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 43,
+        "ageEnd": 63,
+        "country": [
+          "JP",
+          "IT"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 35,
+        "ageEnd": 45,
+        "country": [
+          "AU",
+          "FR"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      },
+      {
+        "ageStart": 26,
+        "ageEnd": 40,
+        "country": [
+          "CA"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 43",
+    "startAt": "2024-06-03T00:00:00Z",
+    "endAt": "2024-06-17T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 30,
+        "ageEnd": 46,
+        "country": [
+          "IT",
+          "BR",
+          "CA"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 44",
+    "startAt": "2024-09-22T00:00:00Z",
+    "endAt": "2024-10-12T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 43,
+        "ageEnd": 50,
+        "country": [
+          "DE",
+          "GB"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 30,
+        "ageEnd": 46,
+        "country": [
+          "AU"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 30,
+        "ageEnd": 42,
+        "country": [
+          "FR",
+          "BR"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 45",
+    "startAt": "2024-05-27T00:00:00Z",
+    "endAt": "2024-06-12T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 28,
+        "ageEnd": 45,
+        "country": [
+          "TW",
+          "IT",
+          "JP"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 30,
+        "ageEnd": 44,
+        "country": [
+          "IT",
+          "DE",
+          "CA"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 46,
+        "ageEnd": 64,
+        "country": [
+          "IT",
+          "JP",
+          "US"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 46",
+    "startAt": "2024-01-22T00:00:00Z",
+    "endAt": "2024-02-21T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 18,
+        "ageEnd": 37,
+        "country": [
+          "AU"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 42,
+        "ageEnd": 52,
+        "country": [
+          "CA",
+          "JP",
+          "GB"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 24,
+        "ageEnd": 39,
+        "country": [
+          "CA"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 47",
+    "startAt": "2024-12-09T00:00:00Z",
+    "endAt": "2025-01-01T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 26,
+        "ageEnd": 35,
+        "country": [
+          "FR",
+          "BR",
+          "US"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 48",
+    "startAt": "2024-12-09T00:00:00Z",
+    "endAt": "2024-12-23T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 22,
+        "ageEnd": 34,
+        "country": [
+          "DE"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 53,
+        "ageEnd": 69,
+        "country": [
+          "AU"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 49",
+    "startAt": "2024-03-22T00:00:00Z",
+    "endAt": "2024-04-20T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 59,
+        "ageEnd": 74,
+        "country": [
+          "TW",
+          "DE",
+          "IT"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 50",
+    "startAt": "2024-07-31T00:00:00Z",
+    "endAt": "2024-08-29T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 39,
+        "ageEnd": 52,
+        "country": [
+          "FR",
+          "DE",
+          "IT"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 51",
+    "startAt": "2024-02-09T00:00:00Z",
+    "endAt": "2024-02-25T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 51,
+        "ageEnd": 61,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 52",
+    "startAt": "2024-06-12T00:00:00Z",
+    "endAt": "2024-06-14T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 29,
+        "ageEnd": 47,
+        "country": [
+          "TW"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 45,
+        "ageEnd": 52,
+        "country": [
+          "US"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 58,
+        "ageEnd": 65,
+        "country": [
+          "DE"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 53",
+    "startAt": "2024-09-01T00:00:00Z",
+    "endAt": "2024-09-09T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 22,
+        "ageEnd": 28,
+        "country": [
+          "AU",
+          "IT"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 51,
+        "ageEnd": 58,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 60,
+        "ageEnd": 74,
+        "country": [
+          "DE",
+          "BR",
+          "AU"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 54",
+    "startAt": "2024-06-23T00:00:00Z",
+    "endAt": "2024-07-09T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 18,
+        "ageEnd": 36,
+        "country": [
+          "IT",
+          "TW",
+          "JP"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 25,
+        "ageEnd": 44,
+        "country": [
+          "GB",
+          "CA"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 35,
+        "ageEnd": 52,
+        "country": [
+          "DE",
+          "JP"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 55",
+    "startAt": "2024-12-16T00:00:00Z",
+    "endAt": "2025-01-14T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 47,
+        "ageEnd": 65,
+        "country": [
+          "FR",
+          "BR"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 56",
+    "startAt": "2024-07-06T00:00:00Z",
+    "endAt": "2024-07-29T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 23,
+        "ageEnd": 43,
+        "country": [
+          "US"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 38,
+        "ageEnd": 58,
+        "country": [
+          "BR",
+          "TW",
+          "AU"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 47,
+        "ageEnd": 59,
+        "country": [
+          "AU"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 57",
+    "startAt": "2024-08-25T00:00:00Z",
+    "endAt": "2024-08-27T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 47,
+        "ageEnd": 53,
+        "country": [
+          "DE",
+          "FR"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 50,
+        "ageEnd": 62,
+        "country": [
+          "CA",
+          "BR"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 58",
+    "startAt": "2024-06-21T00:00:00Z",
+    "endAt": "2024-07-20T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 24,
+        "ageEnd": 30,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 29,
+        "ageEnd": 44,
+        "country": [
+          "CA"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 44,
+        "ageEnd": 57,
+        "country": [
+          "DE",
+          "GB",
+          "TW"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 59",
+    "startAt": "2024-01-24T00:00:00Z",
+    "endAt": "2024-02-09T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 32,
+        "ageEnd": 43,
+        "country": [
+          "TW"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 49,
+        "ageEnd": 59,
+        "country": [
+          "AU",
+          "US",
+          "TW"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 60",
+    "startAt": "2024-02-06T00:00:00Z",
+    "endAt": "2024-02-10T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 46,
+        "ageEnd": 56,
+        "country": [
+          "TW"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 47,
+        "ageEnd": 64,
+        "country": [
+          "IT",
+          "FR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 61",
+    "startAt": "2024-12-03T00:00:00Z",
+    "endAt": "2024-12-24T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 33,
+        "ageEnd": 51,
+        "country": [
+          "US",
+          "CA",
+          "DE"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 20,
+        "ageEnd": 25,
+        "country": [
+          "JP",
+          "AU",
+          "FR"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 62",
+    "startAt": "2024-10-06T00:00:00Z",
+    "endAt": "2024-10-15T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 52,
+        "ageEnd": 58,
+        "country": [
+          "JP",
+          "CA",
+          "FR"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 63",
+    "startAt": "2024-09-19T00:00:00Z",
+    "endAt": "2024-10-14T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 39,
+        "ageEnd": 54,
+        "country": [
+          "GB",
+          "AU",
+          "CA"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 33,
+        "ageEnd": 48,
+        "country": [
+          "TW",
+          "AU"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 29,
+        "ageEnd": 34,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 64",
+    "startAt": "2024-08-31T00:00:00Z",
+    "endAt": "2024-09-05T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 29,
+        "ageEnd": 48,
+        "country": [
+          "TW"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 50,
+        "ageEnd": 60,
+        "country": [
+          "AU",
+          "FR",
+          "CA"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 65",
+    "startAt": "2024-06-26T00:00:00Z",
+    "endAt": "2024-06-27T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 30,
+        "ageEnd": 38,
+        "country": [
+          "US",
+          "JP",
+          "BR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 36,
+        "ageEnd": 53,
+        "country": [
+          "JP"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      },
+      {
+        "ageStart": 46,
+        "ageEnd": 58,
+        "country": [
+          "TW",
+          "AU"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 66",
+    "startAt": "2024-05-02T00:00:00Z",
+    "endAt": "2024-05-14T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 25,
+        "ageEnd": 42,
+        "country": [
+          "US",
+          "CA"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 55,
+        "ageEnd": 66,
+        "country": [
+          "CA"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 67",
+    "startAt": "2024-10-11T00:00:00Z",
+    "endAt": "2024-11-10T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 32,
+        "ageEnd": 46,
+        "country": [
+          "JP",
+          "US",
+          "TW"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 37,
+        "ageEnd": 57,
+        "country": [
+          "IT",
+          "TW"
+        ],
+        "platform": [
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 68",
+    "startAt": "2024-01-09T00:00:00Z",
+    "endAt": "2024-01-16T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 50,
+        "ageEnd": 66,
+        "country": [
+          "US"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 31,
+        "ageEnd": 41,
+        "country": [
+          "BR",
+          "TW"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 60,
+        "ageEnd": 72,
+        "country": [
+          "CA"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 69",
+    "startAt": "2024-11-03T00:00:00Z",
+    "endAt": "2024-11-27T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 38,
+        "ageEnd": 46,
+        "country": [
+          "AU"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 50,
+        "ageEnd": 65,
+        "country": [
+          "GB",
+          "IT"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 22,
+        "ageEnd": 36,
+        "country": [
+          "CA",
+          "JP"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 70",
+    "startAt": "2024-02-06T00:00:00Z",
+    "endAt": "2024-02-19T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 48,
+        "ageEnd": 53,
+        "country": [
+          "CA",
+          "BR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 71",
+    "startAt": "2024-11-03T00:00:00Z",
+    "endAt": "2024-11-23T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 25,
+        "ageEnd": 35,
+        "country": [
+          "DE"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 72",
+    "startAt": "2024-05-10T00:00:00Z",
+    "endAt": "2024-06-05T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 42,
+        "ageEnd": 47,
+        "country": [
+          "DE",
+          "TW"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 32,
+        "ageEnd": 38,
+        "country": [
+          "IT",
+          "US"
+        ],
+        "platform": [
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 73",
+    "startAt": "2024-01-29T00:00:00Z",
+    "endAt": "2024-02-24T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 21,
+        "ageEnd": 29,
+        "country": [
+          "GB",
+          "FR"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 74",
+    "startAt": "2024-11-10T00:00:00Z",
+    "endAt": "2024-12-10T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 34,
+        "ageEnd": 48,
+        "country": [
+          "JP",
+          "US",
+          "AU"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 26,
+        "ageEnd": 45,
+        "country": [
+          "AU",
+          "DE"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 37,
+        "ageEnd": 52,
+        "country": [
+          "AU"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 75",
+    "startAt": "2024-10-11T00:00:00Z",
+    "endAt": "2024-10-20T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 50,
+        "ageEnd": 60,
+        "country": [
+          "TW",
+          "JP"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 55,
+        "ageEnd": 67,
+        "country": [
+          "JP"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 76",
+    "startAt": "2024-11-01T00:00:00Z",
+    "endAt": "2024-11-08T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 27,
+        "ageEnd": 33,
+        "country": [
+          "US",
+          "AU",
+          "GB"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 77",
+    "startAt": "2024-06-08T00:00:00Z",
+    "endAt": "2024-06-17T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 26,
+        "ageEnd": 36,
+        "country": [
+          "BR",
+          "JP",
+          "IT"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      },
+      {
+        "ageStart": 51,
+        "ageEnd": 59,
+        "country": [
+          "DE"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 26,
+        "ageEnd": 36,
+        "country": [
+          "US"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 78",
+    "startAt": "2024-01-09T00:00:00Z",
+    "endAt": "2024-01-16T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 21,
+        "ageEnd": 41,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 79",
+    "startAt": "2024-02-04T00:00:00Z",
+    "endAt": "2024-02-12T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 21,
+        "ageEnd": 35,
+        "country": [
+          "DE"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 60,
+        "ageEnd": 79,
+        "country": [
+          "AU",
+          "GB"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 43,
+        "ageEnd": 63,
+        "country": [
+          "IT"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 80",
+    "startAt": "2024-05-08T00:00:00Z",
+    "endAt": "2024-06-03T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 53,
+        "ageEnd": 68,
+        "country": [
+          "CA",
+          "FR"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 50,
+        "ageEnd": 65,
+        "country": [
+          "AU",
+          "TW"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 27,
+        "ageEnd": 45,
+        "country": [
+          "CA"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 81",
+    "startAt": "2024-09-07T00:00:00Z",
+    "endAt": "2024-09-14T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 50,
+        "ageEnd": 68,
+        "country": [
+          "DE",
+          "US"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 28,
+        "ageEnd": 44,
+        "country": [
+          "IT"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 82",
+    "startAt": "2024-09-26T00:00:00Z",
+    "endAt": "2024-09-29T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 55,
+        "ageEnd": 63,
+        "country": [
+          "DE",
+          "IT",
+          "US"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 26,
+        "ageEnd": 37,
+        "country": [
+          "JP"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 55,
+        "ageEnd": 61,
+        "country": [
+          "AU"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 83",
+    "startAt": "2024-08-16T00:00:00Z",
+    "endAt": "2024-09-02T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 19,
+        "ageEnd": 38,
+        "country": [
+          "FR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 84",
+    "startAt": "2024-11-01T00:00:00Z",
+    "endAt": "2024-11-27T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 44,
+        "ageEnd": 52,
+        "country": [
+          "IT",
+          "JP",
+          "GB"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 55,
+        "ageEnd": 74,
+        "country": [
+          "JP",
+          "GB"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 22,
+        "ageEnd": 30,
+        "country": [
+          "GB",
+          "JP",
+          "FR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 85",
+    "startAt": "2024-03-09T00:00:00Z",
+    "endAt": "2024-03-29T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 47,
+        "ageEnd": 66,
+        "country": [
+          "TW",
+          "FR",
+          "BR"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 86",
+    "startAt": "2024-12-01T00:00:00Z",
+    "endAt": "2024-12-17T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 40,
+        "ageEnd": 54,
+        "country": [
+          "IT",
+          "CA",
+          "JP"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 19,
+        "ageEnd": 34,
+        "country": [
+          "DE",
+          "US"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 25,
+        "ageEnd": 40,
+        "country": [
+          "FR"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 87",
+    "startAt": "2024-09-22T00:00:00Z",
+    "endAt": "2024-10-08T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 41,
+        "ageEnd": 59,
+        "country": [
+          "IT"
+        ],
+        "platform": [
+          "ios"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 88",
+    "startAt": "2024-05-25T00:00:00Z",
+    "endAt": "2024-06-17T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 39,
+        "ageEnd": 51,
+        "country": [
+          "IT",
+          "AU"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 28,
+        "ageEnd": 33,
+        "country": [
+          "US",
+          "BR"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 89",
+    "startAt": "2024-08-30T00:00:00Z",
+    "endAt": "2024-09-07T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 42,
+        "ageEnd": 57,
+        "country": [
+          "FR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 55,
+        "ageEnd": 61,
+        "country": [
+          "US"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "ageStart": 49,
+        "ageEnd": 68,
+        "country": [
+          "BR"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 90",
+    "startAt": "2024-07-17T00:00:00Z",
+    "endAt": "2024-08-13T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 58,
+        "ageEnd": 70,
+        "country": [
+          "GB",
+          "FR",
+          "BR"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 41,
+        "ageEnd": 46,
+        "country": [
+          "TW"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 19,
+        "ageEnd": 36,
+        "country": [
+          "GB",
+          "JP",
+          "TW"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F",
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 91",
+    "startAt": "2024-06-12T00:00:00Z",
+    "endAt": "2024-07-11T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 31,
+        "ageEnd": 36,
+        "country": [
+          "GB"
+        ],
+        "platform": [
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 92",
+    "startAt": "2024-07-11T00:00:00Z",
+    "endAt": "2024-08-01T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 38,
+        "ageEnd": 52,
+        "country": [
+          "US"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 93",
+    "startAt": "2024-10-30T00:00:00Z",
+    "endAt": "2024-11-05T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 33,
+        "ageEnd": 49,
+        "country": [
+          "GB",
+          "FR",
+          "IT"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 20,
+        "ageEnd": 38,
+        "country": [
+          "CA",
+          "FR",
+          "GB"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 20,
+        "ageEnd": 25,
+        "country": [
+          "GB"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 94",
+    "startAt": "2024-03-13T00:00:00Z",
+    "endAt": "2024-03-27T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 42,
+        "ageEnd": 58,
+        "country": [
+          "BR",
+          "AU"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 44,
+        "ageEnd": 63,
+        "country": [
+          "GB",
+          "AU",
+          "JP"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 95",
+    "startAt": "2024-08-01T00:00:00Z",
+    "endAt": "2024-08-29T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 48,
+        "ageEnd": 61,
+        "country": [
+          "TW"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 96",
+    "startAt": "2024-09-29T00:00:00Z",
+    "endAt": "2024-10-27T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 29,
+        "ageEnd": 43,
+        "country": [
+          "GB",
+          "DE",
+          "CA"
+        ],
+        "platform": [
+          "android"
+        ]
+      },
+      {
+        "ageStart": 20,
+        "ageEnd": 35,
+        "country": [
+          "CA"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 97",
+    "startAt": "2024-10-08T00:00:00Z",
+    "endAt": "2024-10-13T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 35,
+        "ageEnd": 53,
+        "country": [
+          "FR"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 98",
+    "startAt": "2024-01-22T00:00:00Z",
+    "endAt": "2024-02-13T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 56,
+        "ageEnd": 68,
+        "country": [
+          "DE"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 58,
+        "ageEnd": 77,
+        "country": [
+          "BR",
+          "IT"
+        ],
+        "platform": [
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      },
+      {
+        "ageStart": 45,
+        "ageEnd": 56,
+        "country": [
+          "IT"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "M",
+          "F"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 99",
+    "startAt": "2024-07-18T00:00:00Z",
+    "endAt": "2024-08-03T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 41,
+        "ageEnd": 58,
+        "country": [
+          "IT",
+          "JP",
+          "AU"
+        ],
+        "platform": [
+          "ios"
+        ]
+      },
+      {
+        "ageStart": 46,
+        "ageEnd": 64,
+        "country": [
+          "TW",
+          "FR",
+          "BR"
+        ],
+        "platform": [
+          "android",
+          "ios"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AD 100",
+    "startAt": "2024-06-07T00:00:00Z",
+    "endAt": "2024-07-03T00:00:00Z",
+    "conditions": [
+      {
+        "ageStart": 39,
+        "ageEnd": 45,
+        "country": [
+          "US",
+          "AU"
+        ],
+        "platform": [
+          "ios",
+          "android"
+        ]
+      },
+      {
+        "ageStart": 50,
+        "ageEnd": 70,
+        "country": [
+          "CA"
+        ],
+        "platform": [
+          "android"
+        ],
+        "gender": [
+          "F"
+        ]
+      },
+      {
+        "ageStart": 20,
+        "ageEnd": 29,
+        "country": [
+          "US",
+          "GB"
+        ],
+        "platform": [
+          "ios"
+        ]
+      }
+    ]
+  }
+]

@@ -3,10 +3,9 @@ package db
 import (
 	"database/sql"
 	"fmt"
+
 	_ "github.com/lib/pq" // PostgreSQL driver
 )
-
-var DB *sql.DB
 
 func Init(dataSourceName string) {
 	var err error
@@ -22,3 +21,5 @@ func Init(dataSourceName string) {
 
 	fmt.Println("Database connection established")
 }
+
+var DB *sql.DB

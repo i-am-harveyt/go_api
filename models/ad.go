@@ -1,6 +1,9 @@
 package models
 
-import "time"
+import (
+	"fmt"
+	"time"
+)
 
 type Ad struct {
 	ID         uint64      `json:"id"`
@@ -37,4 +40,12 @@ type ListAdRequest struct {
 	Gender   string `json:"gender"`
 	Country  string `json:"country"`
 	Platform string `json:"platform"`
+}
+
+func (this *ListAdRequest) ToString() string {
+	return fmt.Sprintf(
+		"Offset:%d; Limit:%d; Age:%d; Gender:%s; Country:%s; Platform:%s",
+		this.Offset, this.Limit, this.Age,
+		this.Gender, this.Country, this.Platform,
+	)
 }
