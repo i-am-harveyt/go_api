@@ -52,12 +52,10 @@ func ListAds(c *fiber.Ctx) error {
 	// to see if cache hits
 	val, err := cache.RedisCli.Get(cache.RedisCtx, queryString).Result()
 	if err != nil && err != redis.Nil { // some other error
-		// log.Error(err.Error())
 		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{
 			"error": err.Error(),
 		})
 	} else if err != redis.Nil { // key in redis, i.e. cache hit
-		// log.Infof("[HIT] val: %s", val)
 		var ads []models.ListedAd
 		err := json.Unmarshal([]byte(val), &ads)
 		if err != nil {
@@ -73,7 +71,6 @@ func ListAds(c *fiber.Ctx) error {
 
 	// fetch data from database
 	ads, err := getActiveAds(&req)
-	// log.Info(ads)
 	if err != nil {
 		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
 			"error": err.Error(),
@@ -91,7 +88,7 @@ func ListAds(c *fiber.Ctx) error {
 		cache.RedisCtx,
 		queryString,
 		adsString,
-		5*time.Minute).Err(); err != nil {
+		1*time.Minute).Err(); err != nil {
 		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
 			"error": err.Error(),
 		})

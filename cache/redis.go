@@ -2,12 +2,13 @@ package cache
 
 import (
 	"context"
+	"os"
 
 	"github.com/redis/go-redis/v9"
 )
 
 var RedisCli *redis.Client = redis.NewClient(&redis.Options{
-	Addr:     "localhost:6379",
+	Addr: os.Getenv("REDIS_ADDRESS"),
 	Password: "",
 	DB:       0,
 })
