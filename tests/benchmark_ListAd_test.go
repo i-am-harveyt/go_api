@@ -14,7 +14,11 @@ import (
 func Benchmark1(b *testing.B) {
 	b.StopTimer()
 	// setup
-	app := fiber.New()
+	app := fiber.New(
+		fiber.Config{
+			Prefork: true,
+		},
+	)
 	app.Get("/api/v1/ads/list", handlers.ListAds)
 	db.Init(os.Getenv("DATABASE_URL"))
 	defer db.DB.Close()
@@ -37,7 +41,7 @@ func Benchmark1(b *testing.B) {
 	// send mock request
 	b.StartTimer()
 
-	for i := 0; i < 10000; i++ {
+	for i := 0; i < b.N; i++ {
 		app.Test(req)
 	}
 

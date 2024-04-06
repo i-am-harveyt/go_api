@@ -7,14 +7,12 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	// "github.com/gofiber/fiber/v2/log"
 	"github.com/lib/pq"
 	"github.com/redis/go-redis/v9"
 
 	"github.com/i-am-harveyt/go-ad-service/cache"
 	"github.com/i-am-harveyt/go-ad-service/db"
 	"github.com/i-am-harveyt/go-ad-service/models"
-	"github.com/i-am-harveyt/go-ad-service/utils"
 )
 
 // To list the ads given some query params
@@ -32,7 +30,6 @@ func ListAds(c *fiber.Ctx) error {
 	}
 
 	queryString := req.ToString()
-	// log.Info(queryString)
 
 	// to see if cache hits
 	val, err := cache.RedisCli.Get(cache.RedisCtx, queryString).Result()
@@ -87,56 +84,25 @@ func ListAds(c *fiber.Ctx) error {
 	})
 }
 
-func validateCreateAdRequest(req *models.CreateAdRequest) error {
-	for _, condition := range req.Conditions {
-		if err := utils.ValidateAge(condition.AgeStart); err != nil {
-			return err
-		}
-
-		if err := utils.ValidateAge(condition.AgeEnd); err != nil {
-			return err
-		}
-
-		for _, gender := range condition.Gender {
-			if err := utils.ValidateGender(gender); err != nil {
-				return err
-			}
-		}
-
-		for _, country := range condition.Country {
-			if err := utils.ValidateCountry(country); err != nil {
-				return err
-			}
-		}
-
-		for _, platform := range condition.Platform {
-			if err := utils.ValidatePlatform(platform); err != nil {
-				return err
-			}
-		}
-	}
-
-	return nil
-}
-
 func reqFieldToArray(s string) []string {
 	return slices.DeleteFunc(
 		strings.Split(s, ","),
-		func(s string) bool { return s == "" }, // splitting "" will get {""}
+		// splitting "" will get {""}, remove 'em
+		func(s string) bool { return s == "" },
 	)
 }
 
 func getActiveAds(req *models.ListAdRequest) ([]models.ListedAd, error) {
 	query := `
-		SELECT A.id, A.title, A.end_at FROM public.ad A
+		SELECT DISTINCT A.id, A.title, A.end_at
+		FROM public.ad A
 		INNER JOIN public.condition C ON A.id=C.ad_id
-		WHERE ($1 = 0 OR $1 BETWEEN C.age_start AND c.age_end)
-			AND (array_length($2::text[], 1)=0 OR gender IS NULL OR $2 <@ gender)
-			AND (array_length($3::text[], 1)=0 OR country IS NULL OR $3 <@ country)
-			AND (array_length($4::text[], 1)=0 OR platform IS NULL OR $4 <@ platform)
-			AND ((NOW() BETWEEN start_at AND end_at) OR 1=1)
-		GROUP BY A.id
-		ORDER BY end_at ASC
+		WHERE ($1 = 0 OR $1 BETWEEN C.age_start AND C.age_end)
+			AND (C.gender IS NULL OR $2 <@ C.gender)
+			AND (C.country IS NULL OR $3 <@ C.country)
+			AND (C.platform IS NULL OR $4 <@ C.platform)
+			AND ((NOW() BETWEEN A.start_at AND A.end_at) OR 1=1)
+		ORDER BY A.end_at ASC
 		OFFSET $5 LIMIT $6
 	`
 	genderArr := reqFieldToArray(req.Gender)
@@ -160,7 +126,11 @@ func getActiveAds(req *models.ListAdRequest) ([]models.ListedAd, error) {
 	for rows.Next() {
 		var listAd models.ListedAd
 		var dummyId uint
-		if err := rows.Scan(&dummyId, &listAd.Title, &listAd.EndAt); err != nil {
+		if err := rows.Scan(
+			&dummyId,
+			&listAd.Title,
+			&listAd.EndAt,
+		); err != nil {
 			return nil, err
 		}
 		ads = append(ads, listAd)
