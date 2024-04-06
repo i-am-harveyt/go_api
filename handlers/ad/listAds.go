@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/log"
+	// "github.com/gofiber/fiber/v2/log"
 	"github.com/lib/pq"
 	"github.com/redis/go-redis/v9"
 
@@ -32,17 +32,17 @@ func ListAds(c *fiber.Ctx) error {
 	}
 
 	queryString := req.ToString()
-	log.Info(queryString)
+	// log.Info(queryString)
 
 	// to see if cache hits
 	val, err := cache.RedisCli.Get(cache.RedisCtx, queryString).Result()
 	if err != nil && err != redis.Nil { // some other error
-		log.Error(err.Error())
+		// log.Error(err.Error())
 		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{
 			"error": err.Error(),
 		})
 	} else if err != redis.Nil { // key in redis, i.e. cache hit
-		log.Infof("[HIT] val: %s", val)
+		// log.Infof("[HIT] val: %s", val)
 		var ads []models.ListedAd
 		err := json.Unmarshal([]byte(val), &ads)
 		if err != nil {
@@ -58,7 +58,7 @@ func ListAds(c *fiber.Ctx) error {
 
 	// fetch data from database
 	ads, err := getActiveAds(&req)
-	log.Info(ads)
+	// log.Info(ads)
 	if err != nil {
 		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
 			"error": err.Error(),
@@ -122,7 +122,7 @@ func validateCreateAdRequest(req *models.CreateAdRequest) error {
 func reqFieldToArray(s string) []string {
 	return slices.DeleteFunc(
 		strings.Split(s, ","),
-		func(s string) bool { return s == "" },
+		func(s string) bool { return s == "" }, // splitting "" will get {""}
 	)
 }
 

@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/log"
+	// "github.com/gofiber/fiber/v2/log"
 	"github.com/lib/pq"
 
 	"github.com/i-am-harveyt/go-ad-service/db"
@@ -12,14 +12,14 @@ import (
 func CreateAd(c *fiber.Ctx) error {
 	var req models.CreateAdRequest
 	if err := c.BodyParser(&req); err != nil {
-		log.Info(string(c.Body()))
+		// log.Info(string(c.Body()))
 		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{
 			"error": err.Error(),
 		})
 	}
 
 	if err := validateCreateAdRequest(&req); err != nil {
-		log.Error(err)
+		// log.Error(err)
 		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{
 			"error": err.Error(),
 		})
@@ -71,7 +71,7 @@ func insertAd(ad models.Ad) (uint, error) {
 	`
 	stm, err := tx.Prepare(queryInsertCondition)
 	for _, condition := range ad.Conditions {
-		log.Info(condition)
+		// log.Info(condition)
 		_, err := stm.Exec(
 			lastInsertID,
 			condition.AgeStart,

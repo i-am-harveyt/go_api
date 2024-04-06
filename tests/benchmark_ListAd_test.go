@@ -12,6 +12,7 @@ import (
 )
 
 func Benchmark1(b *testing.B) {
+	b.StopTimer()
 	// setup
 	app := fiber.New()
 	app.Get("/api/v1/ads/list", handlers.ListAds)
@@ -34,10 +35,11 @@ func Benchmark1(b *testing.B) {
 	req.Header.Add("Content-Type", "application/json")
 
 	// send mock request
-	b.ResetTimer()
 	b.StartTimer()
 
-	for i := 0; i < b.N; i++ {
+	for i := 0; i < 10000; i++ {
 		app.Test(req)
 	}
+
+	b.StopTimer()
 }
