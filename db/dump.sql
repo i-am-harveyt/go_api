@@ -18,13 +18,13 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-DROP DATABASE go;
+-- DROP DATABASE IF EXISTS go;
 --
 -- TOC entry 3412 (class 1262 OID 16384)
 -- Name: go; Type: DATABASE; Schema: -; Owner: go
 --
 
-CREATE DATABASE go WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'en_US.utf8';
+-- CREATE DATABASE go WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'en_US.utf8';
 
 
 ALTER DATABASE go OWNER TO go;
@@ -47,7 +47,7 @@ SET row_security = off;
 -- Name: public; Type: SCHEMA; Schema: -; Owner: pg_database_owner
 --
 
-CREATE SCHEMA public;
+-- CREATE SCHEMA public;
 
 
 ALTER SCHEMA public OWNER TO pg_database_owner;
