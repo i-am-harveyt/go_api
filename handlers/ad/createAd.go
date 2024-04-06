@@ -1,28 +1,36 @@
 package handlers
 
 import (
+	"fmt"
+
 	"github.com/gofiber/fiber/v2"
-	// "github.com/gofiber/fiber/v2/log"
+
 	"github.com/lib/pq"
 
 	"github.com/i-am-harveyt/go-ad-service/db"
 	"github.com/i-am-harveyt/go-ad-service/models"
+	"github.com/i-am-harveyt/go-ad-service/utils"
 )
 
 func CreateAd(c *fiber.Ctx) error {
 	var req models.CreateAdRequest
 	if err := c.BodyParser(&req); err != nil {
-		// log.Info(string(c.Body()))
 		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{
 			"error": err.Error(),
 		})
 	}
 
-	if err := validateCreateAdRequest(&req); err != nil {
-		// log.Error(err)
-		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{
-			"error": err.Error(),
-		})
+	if errs := utils.Validator.Validate(req); len(errs) > 0 {
+		return c.Status(fiber.StatusForbidden).JSON(
+			fiber.Map{
+				"error": fmt.Sprintf(
+					"Input Invalid: Field=%s; Tag=%s; Value=%s;",
+					errs[0].Field,
+					errs[0].Tag,
+					errs[0].Value,
+				),
+			},
+		)
 	}
 
 	ad := models.Ad{
@@ -32,11 +40,30 @@ func CreateAd(c *fiber.Ctx) error {
 		Conditions: req.Conditions,
 	}
 
+	for _, cond := range ad.Conditions {
+		if errs := utils.Validator.Validate(cond); len(errs) > 0 {
+			return c.Status(fiber.StatusForbidden).JSON(
+				fiber.Map{
+					"error": fmt.Sprintf(
+						"Input Invalid: Field=%s; Tag=%s; Value=%s;",
+						errs[0].Field,
+						errs[0].Tag,
+						errs[0].Value,
+					),
+				},
+			)
+		}
+	}
+
 	id, err := insertAd(ad)
 	if err != nil {
-		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
-			"error": err.Error(),
-		})
+		return c.Status(
+			fiber.StatusInternalServerError,
+		).JSON(
+			fiber.Map{
+				"error": err.Error(),
+			},
+		)
 	}
 
 	return c.Status(fiber.StatusCreated).JSON(fiber.Map{

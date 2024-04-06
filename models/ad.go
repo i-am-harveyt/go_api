@@ -19,11 +19,11 @@ type ListedAd struct {
 }
 
 type Condition struct {
-	AgeStart uint8    `json:"ageStart"`
-	AgeEnd   uint8    `json:"ageEnd"`
-	Gender   []string `json:"gender"`
-	Country  []string `json:"country"`
-	Platform []string `json:"platform"`
+	AgeStart uint8    `json:"ageStart" validate:"min=1,max=100"`
+	AgeEnd   uint8    `json:"ageEnd"   validate:"min=1,max=100"`
+	Gender   []string `json:"gender"   validate:"dive,oneof=M F"`
+	Country  []string `json:"country"  validate:"dive,iso3166_1_alpha2"`
+	Platform []string `json:"platform" validate:"dive,oneof=android ios web"`
 }
 
 type CreateAdRequest struct {
@@ -34,12 +34,12 @@ type CreateAdRequest struct {
 }
 
 type ListAdRequest struct {
-	Offset   uint64 `json:"offset"`
-	Limit    uint64 `json:"limit"`
-	Age      uint8  `json:"age"`
-	Gender   string `json:"gender"`
-	Country  string `json:"country"`
-	Platform string `json:"platform"`
+	Offset   uint8  `json:"offset"   validate:"min=0"`
+	Limit    uint8  `json:"limit"    validate:"required,min=0,max=100"` // since fiber's default=0, allow 0 here
+	Age      uint8  `json:"age"      validate:"min=0,max=100"`
+	Gender   []string `validate:"dive,oneof=M F"`
+	Country  []string `validate:"dive,iso3166_1_alpha2"`
+	Platform []string `validate:"dive,oneof=android ios web"`
 }
 
 func (this *ListAdRequest) ToString() string {

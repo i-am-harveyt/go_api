@@ -2,6 +2,7 @@ package handlers
 
 import (
 	"encoding/json"
+	"fmt"
 	"slices"
 	"strings"
 	"time"
@@ -13,6 +14,7 @@ import (
 	"github.com/i-am-harveyt/go-ad-service/cache"
 	"github.com/i-am-harveyt/go-ad-service/db"
 	"github.com/i-am-harveyt/go-ad-service/models"
+	"github.com/i-am-harveyt/go-ad-service/utils"
 )
 
 // To list the ads given some query params
@@ -24,9 +26,25 @@ func ListAds(c *fiber.Ctx) error {
 			"error": err.Error(),
 		})
 	}
-	// default limit is 5
+	req.Gender = reqFieldToArray(c.Query("gender"))
+	req.Country = reqFieldToArray(c.Query("country"))
+	req.Platform = reqFieldToArray(c.Query("platform"))
+
+	// default limit is 5, do some adjustment
 	if req.Limit == 0 {
 		req.Limit = 5
+	}
+
+	// validate fields
+	if errs := utils.Validator.Validate(req); len(errs) > 0 {
+		return c.Status(fiber.StatusForbidden).JSON(
+			fiber.Map{
+				"error": fmt.Sprintf(
+					"Input Invalid: Field=%s; Tag=%s; Value=%s;",
+					errs[0].Field, errs[0].Tag, errs[0].Value,
+				),
+			},
+		)
 	}
 
 	queryString := req.ToString()
@@ -105,15 +123,12 @@ func getActiveAds(req *models.ListAdRequest) ([]models.ListedAd, error) {
 		ORDER BY A.end_at ASC
 		OFFSET $5 LIMIT $6
 	`
-	genderArr := reqFieldToArray(req.Gender)
-	countryArr := reqFieldToArray(req.Country)
-	platformArr := reqFieldToArray(req.Platform)
 
 	rows, err := db.DB.Query(query,
 		req.Age,
-		pq.StringArray(genderArr),
-		pq.StringArray(countryArr),
-		pq.StringArray(platformArr),
+		pq.StringArray(req.Gender),
+		pq.StringArray(req.Country),
+		pq.StringArray(req.Platform),
 		req.Offset,
 		req.Limit,
 	)
