@@ -98,7 +98,6 @@ func insertAd(ad models.Ad) (uint, error) {
 	`
 	stm, err := tx.Prepare(queryInsertCondition)
 	for _, condition := range ad.Conditions {
-		// log.Info(condition)
 		_, err := stm.Exec(
 			lastInsertID,
 			condition.AgeStart,
