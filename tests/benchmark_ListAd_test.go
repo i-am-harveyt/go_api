@@ -19,7 +19,7 @@ func Benchmark1(b *testing.B) {
 			Prefork: true,
 		},
 	)
-	app.Get("/api/v1/ads/list", handlers.ListAds)
+	app.Get("/api/v1/ad", handlers.ListAds)
 	db.Init(os.Getenv("DATABASE_URL"))
 	defer db.DB.Close()
 	defer cache.RedisCli.Close()
@@ -27,7 +27,7 @@ func Benchmark1(b *testing.B) {
 	// mock request
 	req := httptest.NewRequest(
 		"GET",
-		"/api/v1/ads/list?"+
+		"/api/v1/ad?"+
 			"offset=0"+
 			"&limit=10"+
 			"&age=25"+

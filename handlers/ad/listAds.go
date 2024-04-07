@@ -116,7 +116,7 @@ func getActiveAds(req *models.ListAdRequest) ([]models.ListedAd, error) {
 			AND (C.gender IS NULL OR $2 <@ C.gender)
 			AND (C.country IS NULL OR $3 <@ C.country)
 			AND (C.platform IS NULL OR $4 <@ C.platform)
-			AND ((NOW() BETWEEN A.start_at AND A.end_at) OR 1=1)
+			AND (NOW() BETWEEN A.start_at AND A.end_at)
 		ORDER BY A.end_at ASC
 		OFFSET $5 LIMIT $6
 	`

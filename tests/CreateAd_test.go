@@ -15,7 +15,7 @@ import (
 )
 
 func readJSONFile() ([]models.CreateAdRequest, error) {
-	filePath := "./test_data.json"
+	filePath := "./gen_data/test_data.json"
 	file, err := os.Open(filePath)
 	if err != nil {
 		return nil, err
@@ -69,5 +69,4 @@ func TestCreateAd(t *testing.T) {
 			return
 		}
 	}
-	t.Log("Test complete")
 }
